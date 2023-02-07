@@ -8,3 +8,754 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@200;300;400;500;700&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Open+Sans:wght@300;500;700&family=Work+Sans:wght@100;200;300;500;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans";
+}
+
+/* NAV & HEADER */
+nav {
+  background-color: #540b51;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 30px;
+  font-weight: 500;
+}
+
+.nav-bar,
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-btns > button {
+  background-color: #540b51;
+  border: none;
+}
+
+.nav-btns ul {
+  display: flex;
+}
+
+.header-try-free a:link {
+  background-color: #fff;
+  color: #540b51;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #540b51;
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px 0 20px 0;
+  width: 90%;
+}
+
+header p {
+  margin: 0;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+header p span {
+  color: #ecb12f;
+  font-weight: bold;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.sign-up-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: 10px;
+}
+
+.email-bnt {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  color: #540b51;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: #4285f4;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+}
+
+.google-btn img {
+  justify-self: flex-start;
+  background-color: #fff;
+  width: 30px;
+}
+
+.screenshot img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* SECTION COMPANIES */
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 50px 30px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 500;
+  align-items: center;
+  background-color: #f3eae2;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.airbnb-logo,
+.spotify-logo {
+  width: 35%;
+}
+
+.uber-logo {
+  width: 20%;
+}
+
+.target-logo,
+.nasa-logo {
+  width: 15%;
+}
+
+.NYtimes-logo {
+  width: 50%;
+}
+
+/* SECTION CARDS */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3eae2;
+  padding-bottom: 20px;
+  gap: 30px;
+}
+
+.cards section {
+  margin-bottom: 40px;
+}
+.cards img {
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.cards h2 {
+  margin: 30px 20px;
+  font-size: 30px;
+}
+
+.cards p,
+a {
+  margin: 15px 25px;
+  line-height: 1.5;
+}
+
+.cards a:link {
+  color: #2e71a6;
+  text-decoration: none;
+}
+
+.cards a:visited {
+  color: #2e71a6;
+}
+
+/* 1ST CONTACT SECTION */
+
+.contact-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-1 h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 60px;
+  width: 70%;
+}
+.contact-1 > p {
+  width: 80%;
+  text-align: center;
+}
+
+.contact-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.enterprises-btn {
+  background-color: #540b51;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.sales-btn1 {
+  color: #540b51;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+  height: 50px;
+  border: solid 2px #540b51;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.statistics {
+  width: 30%;
+  margin: 30px 0;
+}
+
+.statistics ul {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.statistics span {
+  color: #540b51;
+  font-size: 50px;
+}
+
+.statistics li {
+  margin-bottom: 30px;
+}
+
+/* 2ND CONTACT SECTION */
+
+.contact-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #540b51;
+  height: 200%;
+  padding-bottom: 40px;
+}
+
+.contact-2 h3 {
+  width: 70%;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact-2-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.talk-sales-btn {
+  background-color: #540b51;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 80%;
+  height: 5em;
+  border: solid 1.5px #fff;
+  border-radius: 4px;
+}
+
+.try-free-btn {
+  color: #540b51;
+  background-color: #fff;
+  border: solid 1.5px #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 80%;
+  height: 5em;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* FOOTER NAV*/
+
+footer > img {
+  width: 50px;
+  margin: 30px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  margin-left: 30px;
+}
+
+.footer-nav ul {
+  width: 20%;
+}
+
+.footer-nav li {
+  margin-bottom: 20px;
+}
+
+.footer-nav ul li:first-child {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+hr {
+  margin: 30px 25px;
+}
+
+.footer-nav2 {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  gap: 25px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 30px 20px 50px;
+}
+
+.footer {
+  margin: 30px;
+  display: inline-block;
+  font-size: 10px;
+  color: #838083;
+}
+
+/* MOBILE SCREENS (width < 768px) */
+
+@media (max-width: 768px) {
+  .cards .larger-screens {
+    display: none;
+  }
+  .nav-bar ul,
+  .nav-btns ul {
+    display: none;
+  }
+}
+
+/* SMALL SCREENS (width > 768px and width < 1024px)*/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* NAV AND HEADER */
+  .nav-bar ul,
+  .nav-btns ul {
+    display: none;
+  }
+
+  header {
+    background: no-repeat left/100%
+      url(/starter_code/images/background-singup.png);
+    flex-direction: row;
+    padding-bottom: 70px;
+    gap: 50px;
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .screenshot {
+    width: 80%;
+  }
+  .screenshot img {
+    object-fit: cover;
+  }
+
+  /* SECTION COMPANIES */
+  .companies {
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
+
+  .partners {
+    font-size: 26px;
+    padding: 50px 50px 90px 50px;
+  }
+
+  .airbnb-logo,
+  .spotify-logo {
+    width: 18%;
+  }
+
+  .uber-logo {
+    width: 10%;
+  }
+
+  .target-logo,
+  .nasa-logo {
+    width: 8%;
+  }
+
+  .NYtimes-logo {
+    width: 30%;
+  }
+
+  /* SECTION CARDS */
+  .cards .mobile {
+    display: none;
+  }
+
+  .cards img {
+    width: 85%;
+  }
+
+  #card-1,
+  #card-2,
+  #card-3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-text {
+    align-self: center;
+    width: 60%;
+  }
+
+  /* 1ST CONTACT SECTION */
+  .contact-1 h3 {
+    font-size: 30px;
+  }
+
+  .contact-btns {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .contact-1 br {
+    display: none;
+  }
+
+  .statistics {
+    width: 100%;
+  }
+
+  .statistics ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .statistics ul li {
+    text-align: left;
+    width: 20%;
+  }
+
+  .sales-btn1 {
+    width: 150px;
+    display: inline-block;
+  }
+
+  .enterprises-btn {
+    width: 300px;
+    display: inline-block;
+  }
+
+  /* 2ND CONTACT SECTION */
+  .contact-2-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+
+  .talk-sales-btn {
+    order: 1;
+  }
+
+  /* FOOTER NAV*/
+  .footer-nav2 {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 30px;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .social-media {
+    justify-content: flex-start;
+    gap: 50px;
+  }
+}
+
+/* MEDIUM SCREENS (width > 1024px and width < 1440px)*/
+@media (min-width: 1024px) and (max-width: 1440px) {
+  /* NAV AND HEADER */
+  nav li {
+    display: inline-block;
+  }
+
+  nav a:link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav a:visited {
+    text-decoration: none;
+  }
+
+  header {
+    background: no-repeat left/100%
+      url(/starter_code/images/background-singup.png);
+    flex-direction: row;
+    padding-bottom: 30px;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .nav-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-btns {
+    width: 400px;
+    background-color: #540b51;
+  }
+
+  .menu-icon {
+    order: -1;
+    display: none;
+  }
+
+  .screenshot {
+    width: 80%;
+  }
+  .screenshot img {
+    object-fit: cover;
+  }
+
+  /* SECTION COMPANIES */
+  .companies {
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+
+  .partners {
+    font-size: 26px;
+    padding: 50px 50px 90px 50px;
+  }
+
+  .airbnb-logo,
+  .spotify-logo {
+    width: 18%;
+  }
+
+  .uber-logo {
+    width: 10%;
+  }
+
+  .target-logo,
+  .nasa-logo {
+    width: 8%;
+  }
+
+  .NYtimes-logo {
+    width: 30%;
+  }
+
+  /* SECTION CARDS */
+  .cards .mobile {
+    display: none;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 600px;
+  }
+
+  #card-1,
+  #card-2,
+  #card-3 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-2 {
+    order: 1;
+  }
+
+  .cards h2 {
+    font-size: 45px;
+  }
+
+  .card-text {
+    width: 35%;
+    margin: 0 20px;
+  }
+
+  /* 1ST CONTACT SECTION */
+  .contact-btns {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .contact-1 br {
+    display: none;
+  }
+
+  .contact-1 h3 {
+    font-size: 40px;
+    width: 70%;
+  }
+
+  .statistics {
+    width: 100%;
+  }
+
+  .statistics ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .statistics ul li {
+    text-align: left;
+    width: 20%;
+  }
+
+  .sales-btn1 {
+    width: 200px;
+    display: inline-block;
+  }
+
+  .enterprises-btn {
+    width: 300px;
+    display: inline-block;
+  }
+
+  /* 2ND CONTACT SECTION */
+  .contact-2 h3 {
+    font-size: 45px;
+    padding-top: 20px;
+  }
+  .talk-sales-btn {
+    order: 1;
+  }
+
+  .contact-2-btns {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+
+  .talk-sales-btn {
+    width: 200px;
+    height: 50px;
+  }
+
+  .try-free-btn {
+    width: 200px;
+    height: 50px;
+  }
+
+  /* FOOTER */
+
+  .footer-nav2 {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 30px;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .social-media {
+    justify-content: flex-start;
+    gap: 50px;
+  }
+}
